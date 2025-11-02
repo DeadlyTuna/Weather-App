@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=2">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <h1>Weather App</h1>
         <div class="search-section">
-            <input type="text" id="cityInput" placeholder="Enter city name">
+            <input type="text" id="cityInput" placeholder="Enter city name" value="Bengaluru">
             <button onclick="getWeather()">
                 <span id="buttonText">Get Weather</span>
                 <div id="loadingSpinner" class="spinner" style="display: none;">⏳</div>
@@ -21,6 +21,6 @@
         <div id="error"></div>
     </div>
 
-    <script src="js/script.js"></script>
+    <script src="js/script.js?v=2"></script>
 </body>
 </html>
