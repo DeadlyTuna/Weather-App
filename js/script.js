@@ -1,4 +1,4 @@
-
+// Your OpenWeatherMap API key
 const API_KEY = 'ed4d6f32322d8ceac980f5acba269813';
 const API_URL = 'https://api.openweathermap.org/data/2.5/weather';
 
@@ -65,3 +65,6 @@ document.getElementById('cityInput').addEventListener('keypress', function(event
         getWeather();
     }
 });
+
+// Auto-load on start
+window.addEventListener('load', getWeather);
