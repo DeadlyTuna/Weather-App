@@ -23,6 +23,7 @@ body {
     max-width: 400px;
     width: 100%;
     transition: transform 0.3s ease;
+    border: 5px solid red !important; /* TEMP: Smoke test - remove after */
 }
 
 .container:hover {
